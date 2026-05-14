@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bel — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+
+<nav>
+  <a href="#" class="nav-logo">Bel</a>
+  <ul class="nav-links">
+    <li><a href="#sobre-mi">Sobre mí</a></li>
+    <li><a href="#trabajo">Trabajo</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+  </ul>
+</nav>
+
+<section class="hero">
+  <div class="hero-bg-text">Bel</div>
+  <div class="hero-top">
+    <span class="hero-tag">Desarrolladora Web & Diseñadora</span>
+    <span class="hero-status">Disponible para proyectos</span>
+  </div>
+  <h1 class="hero-heading fade-up">Ideas complejas,<br>interfaces <em>simples.</em></h1>
+  <p class="hero-sub fade-up">Estudiante de software que transforma conceptos técnicos en experiencias digitales intuitivas. HTML, CSS, JS — y mucho más por debajo.</p>
+  <div class="hero-bottom fade-up">
+    <a href="#trabajo" class="btn">Ver mi trabajo
+      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 12L12 2M12 2H5M12 2V9"/></svg>
+    </a>
+    <div class="hero-scroll"><div class="scroll-line"></div>Scroll para explorar</div>
+  </div>
+</section>
+
+<section id="sobre-mi">
+  <p class="section-label">Sobre mí</p>
+  <div class="about-grid">
+    <div class="about-text fade-up">
+      <h2>Hola, soy Bel ✨</h2>
+      <p>Estudiante de desarrollo de software de día, diseñadora creativa de corazón. Me dedico a transformar ideas complejas en interfaces web intuitivas y atractivas.</p>
+      <p>Domino el stack de HTML, CSS y JS, pero mi formación técnica va más allá: desde la arquitectura con UML hasta la lógica pura en C++, C# y Python.</p>
+      <p>Creo firmemente que el buen software nace de una gran estructura y se queda en la memoria gracias a un buen diseño.</p>
+    </div>
+    <div class="fade-up">
+      <div class="skills-grid">
+        <div class="skill-item"><span class="skill-name">HTML / CSS</span><span class="skill-tag">Frontend</span></div>
+        <div class="skill-item"><span class="skill-name">JavaScript</span><span class="skill-tag">Frontend</span></div>
+        <div class="skill-item"><span class="skill-name">C++ / C#</span><span class="skill-tag">Backend</span></div>
+        <div class="skill-item"><span class="skill-name">Python</span><span class="skill-tag">Backend</span></div>
+        <div class="skill-item"><span class="skill-name">UML</span><span class="skill-tag">Diseño</span></div>
+        <div class="skill-item"><span class="skill-name">UI / UX</span><span class="skill-tag">Diseño</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="trabajo" class="work-section">
+  <p class="section-label">Trabajo</p>
+
+  <div class="project-block fade-up">
+    <div class="project-inner">
+      <div class="project-canvas-wrap">
+        <canvas id="canvas-aura"></canvas>
+        <span class="canvas-hint">Arrastrá para rotar</span>
+      </div>
+      <div class="project-info">
+        <span class="project-num">01</span>
+        <h3>Aura + Vórtice</h3>
+        <p>Sitio web de estudio de arquitectura. Geometría, elegancia y tipografía expresiva al servicio de una identidad visual poderosa.</p>
+        <div class="project-tags">
+          <span class="project-tag">HTML</span>
+          <span class="project-tag">CSS</span>
+          <span class="project-tag">JS</span>
+          <span class="project-tag">Diseño</span>
+        </div>
+        <a href="#https://auravorticearq.nexusstudiowd.workers.dev/" class="project-link">Ver proyecto
+          <svg width="12" height="12" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 12L12 2M12 2H5M12 2V9"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-block fade-up">
+    <div class="project-inner reverse">
+      <div class="project-canvas-wrap">
+        <canvas id="canvas-polar"></canvas>
+        <span class="canvas-hint">Arrastrá para rotar</span>
+      </div>
+      <div class="project-info">
+        <span class="project-num">02</span>
+        <h3>MS Polarizados</h3>
+        <p>Landing page de estética vehicular. Diseño oscuro y de alto impacto para comunicar potencia, precisión y estilo.</p>
+        <div class="project-tags">
+          <span class="project-tag">HTML</span>
+          <span class="project-tag">CSS</span>
+          <span class="project-tag">JS</span>
+          <span class="project-tag">Landing</span>
+        </div>
+        <a href="#https://mspolarizados.nexusstudiowd.workers.dev/" class="project-link">Ver proyecto
+          <svg width="12" height="12" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 12L12 2M12 2H5M12 2V9"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<section id="contacto" class="contact-section">
+  <p class="section-label" style="justify-content:center">Contacto</p>
+  <p class="contact-big fade-up">¿Construimos<br>algo <em>increíble?</em></p>
+  <p style="color:var(--gray);font-size:.9rem;max-width:380px;margin:0 auto 2rem">Estoy abierta a proyectos freelance, colaboraciones y oportunidades. ¡Escribime!</p>
+  <a href="mailto:sanaguavalentinabelen@gmail.com" class="btn" style="margin:0 auto;display:inline-flex">Escribime
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 12L12 2M12 2H5M12 2V9"/></svg>
+  </a>
+  <div class="contact-links">
+    <a href="#https://github.com/valentinabel-gif" class="contact-link">GitHub</a>
+    <a href="#https://www.linkedin.com/in/valentina-sanagua/" class="contact-link">LinkedIn</a>
+    <a href="#https://www.instagram.com/bel_webdesign/" class="contact-link">Instagram</a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Bel — Todos los derechos reservados</p>
+  <p>Buenos Aires, Argentina</p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
